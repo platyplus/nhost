@@ -1,5 +1,15 @@
 # @nhost/hasura-auth-js
 
+## 1.1.6
+
+### Patch Changes
+
+- 9d32314: Improve error codes
+  The errors of `signUp`, `signIn`, `signOut`, and `refreshSession` now always include an `error` field that contains a machine-readable error code.
+- Updated dependencies [9d32314]
+- Updated dependencies [236ce72]
+  - @nhost/core@0.5.4
+
 ## 1.1.5
 
 ### Patch Changes
