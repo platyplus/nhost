@@ -19,7 +19,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "stackblitz": "cp tsconfig.stackblitz.json tsconfig.json ; pwd > .pwd ; npm run dev",
+    "stackblitz": "node stackblitz.js ; npm run dev",
     "build": "vite build",
     "preview": "vite preview",
     "prettier": "prettier --check .",
